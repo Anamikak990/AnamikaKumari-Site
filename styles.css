@@ -1,7 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,600&display=swap');
 body{
-    color: violet;
+    font-family: 'Cormorant+Garamond';
+
 }
 
-h1{
-    color: rgb(223, 16, 16);
+.container{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.container-fluid{
+    padding-left: 50px;
+    padding-right: 50px;
 }
