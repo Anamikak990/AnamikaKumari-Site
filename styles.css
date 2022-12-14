@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,600&display=swap');
+
+:root{
+    --primary-color:#F472B6;
+}
 body{
     font-family: 'Cormorant+Garamond';
 
@@ -12,4 +16,12 @@ body{
 .container-fluid{
     padding-left: 50px;
     padding-right: 50px;
+}
+.link{
+    text-decoration: none;
+    padding: 0.5rem  1rem;
+}
+
+.primary-link{
+    color: var(--primary-color);
 }
