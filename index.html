@@ -8,39 +8,64 @@
     <link href="styles.css" rel="stylesheet" />
 </head>
 <body>
-    <h1>Welcome to my Portfolio Website</h1>
-    
-    <p>I am an Information Technology Engineer. I have developed this portfolio to showcase my projects.</p>
-
-    <h2>center container</h2>
-    <div class="container">This is a centered container</div>
-    <h2>fluid container</h2>
-    <div class="container-fluid">This is fluid container</div>
-    <h2>@links</h2>
-    <a class="primary-link"></a>
-    <a href="https://google.com">Anamika</a>
-
-    <h2>@nav</h2>
-    <nav>
-        <div>Main Page</div>
-        <ul>
-            <li>
-                <a href="/">Home</a>
+    <nav class="navigation container">
+        <div class="nav-brand">
+            <a href="/">Anamika Kumari</a>
+        </div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link link-active" href="/">Home</a>
             </li>
-            <li>
-                <a href="/">Projects</a>
+            <li class="list-item-inline">
+                <a class="link" href="/Projects.html">Projects</a>
             </li>
-            <li>
-                <a href="/">About</a>
+            <li class="list-item-inline">
+                <a class="link" href="/Blogs.html">Blogs</a>
             </li>
-
         </ul>
     </nav>
-
-    <h2>Header</h2>
-    <header>
-        <img src="C:\Users\HP\Documents\GitHub\AnamikaKumari-Site\Image\Hero.svg"/>
-
+    <header class="hero-img" src="Image/Hero.svg">
+        <h1 class="hero-heading">
+            "Anamika Kumari"
+            <span class="heading-inverted">Software Engineer</span>
+        </h1>
     </header>
+    <section class="section ow">
+        <div class="container container-center">
+            <h1>Technologies</h1>
+        <p>
+            "I'm familiar with HTML5, CSS3, Git, Javascript, NodeJS, ReactJS, Java, Database Management, Python "
+        </p>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container container-center">
+            <h1>Projects</h1>
+            <p>
+                "I like to showcase my work and thus, you can see my projects hosted online"
+            </p>
+            <a class="link link-primary" href="/Projects.html">See Projects</a>
+        </div>
+    </section>
+    <section class="section ow">
+        <div class="container container-center">
+            <h1>Blogs</h1>
+            <p>
+                "I am also working on some technical and non technical blogs. I like to document my journey of learning."
+            </p>
+            <a class="link link-secondary" href="/Blogs.html">Read Blogs</a>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-header">Social Media Presence</div>
+        <ul class="social-links list non-bulltet">
+            <li class="list-item-inline">
+                <a class="link" href="https://github.com/Anamikak990">Github</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="https://www.linkedin.com/in/anamika-k-52432123b">LinkedIn</a>
+            </li>
+        </ul>
+    </footer>
 </body>
 </html>
