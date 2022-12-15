@@ -1,27 +1,74 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,600&display=swap');
 
-:root{
-    --primary-color:#F472B6;
+element.stlye{
+
+}
+@media (max-width: 900px)
+.container.container-center{
+
+}
+
+@media (max-width: 900px)
+.container-center{
+    width: auto;
+}
+
+.container-center{
+    max-width: 900px;
+    margin: auto;
+}
+
+.container {
+    padding: 0rem 1rem;
+}
+
+div{
+    display: block;
+}
+.section{
+    padding: 2rem;
+    margin: 2rem 0;
+    border-radius: 1rem;
+    text-align: center;
 }
 body{
-    font-family: 'Cormorant+Garamond';
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0px auto;
+    max-width: 85%;
+    width: 100%;
+}
+
+:root{
+    --primary-color: #f472b6;
+    --off-white: White;
+    --dark-gray: Gray;
 
 }
 
-.container{
-    padding-left: 50px;
-    padding-right: 50px;
+li{
+    display: list-item;
+    text-align: -webkit-match-parent;
 }
 
-.container-fluid{
-    padding-left: 50px;
-    padding-right: 50px;
-}
-.link{
-    text-decoration: none;
-    padding: 0.5rem  1rem;
+.list-non-bullet{
+    list-style: none;
+    padding-inline-start: 0px;
 }
 
-.primary-link{
-    color: var(--primary-color);
+ul{
+    list-style-type: disc;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0px auto;
+    max-width: 85%;
+    width: 100%;
+}
+
+:root{
+    --primary-color: #f472b6;
+    --off-white: White;
+    --dark-gray: Gray;
+
 }
